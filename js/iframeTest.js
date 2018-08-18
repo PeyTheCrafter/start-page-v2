@@ -1,0 +1,1 @@
+var ifs = document.getElementsByTagName("iframe")[0];

@@ -1,0 +1,34 @@
+#search-section {
+    width: 100%;
+    height: 10%;
+}
+
+#google-search {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    width: auto;
+}
+
+#search-table{
+    display: inherit;
+}
+
+#searchInput {
+    background: none;
+    color: inherit;
+    border: none;
+    border-bottom: solid 2px #98B670;
+    font-family: inherit;
+    font-size: inherit;
+    width: auto;
+}
+
+#searchButton {
+    background: none;
+    color: inherit;
+    border: none;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: inherit;
+}

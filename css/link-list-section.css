@@ -1,0 +1,24 @@
+.link {
+    font-size: 20px;
+}
+
+#link-list-section {
+    width: 75%;
+    overflow: hidden;
+}
+
+.link-list-bkp {
+    display: inline-flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+    overflow: inherit;
+    height: 100%;
+}
+
+.link-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+}

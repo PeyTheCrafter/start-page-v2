@@ -1,0 +1,12 @@
+@keyframes date-time-weather {
+    0% {
+        height: 0px;
+        width: 0px;
+    }
+    25% {
+        height: auto;
+    }
+    100% {
+        width: auto;
+    }
+}

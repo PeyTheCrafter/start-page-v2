@@ -3,15 +3,24 @@
     height: 10%;
 }
 
+/*
+To delete animation, delete animation- lines and set width to 100%.
+*/
 #google-search {
     display: flex;
     flex: 0 0 auto;
     flex-direction: row;
-    width: auto;
+    animation-name: fade-in-left-to-right;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    animation-duration: 500ms;
+    animation-delay: 800ms;
+    width: 0%;
+    overflow: hidden;
 }
 
-#search-table{
-    display: inherit;
+#search-form{
+    width: 100%;
 }
 
 #searchInput {
@@ -21,14 +30,5 @@
     border-bottom: solid 2px #98B670;
     font-family: inherit;
     font-size: inherit;
-    width: auto;
-}
-
-#searchButton {
-    background: none;
-    color: inherit;
-    border: none;
-    border-radius: 5px;
-    font-family: inherit;
-    font-size: inherit;
+    width: 100%;
 }

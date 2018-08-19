@@ -27,13 +27,14 @@ body {
 
 .usable-space {
     position: relative;
-    left: 15%;
+    left: 150px;
     display: flex;
     flex: 0 0 auto;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     width: 30%;
+    -border: solid 2px white;
 }
 
 .floating-menu {
@@ -47,9 +48,9 @@ body {
 
 .date-time-weather {
     overflow: hidden;
-    animation-name: fade-in-top-left;
+    animation-name: fade-in-top-to-bottom-left-to-right;
     animation-fill-mode: forwards;
-    animation-duration: 500ms;
+    animation-duration: 1000ms;
     animation-delay: 250ms;
     width: 2px;
     height: 0px;
@@ -64,6 +65,7 @@ body {
 
 .section {
     height: 33%;
+    width: 100%;
     display: flex;
     flex: 0 0 auto;
     flex-direction: column;
@@ -85,19 +87,4 @@ a {
 
 #weather {
     font-size: 22px;
-}
-
-@keyframes fade-in-top-left {
-    0% {
-        height: 0%;
-        width: 2px;
-    }
-    50% {
-        height: 50%;
-        width: 2px;
-    }
-    100% {
-        width: 100%;
-        height: 50%;
-    }
 }

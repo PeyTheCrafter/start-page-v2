@@ -1,5 +1,6 @@
 # Information and usage
 Here you can find useful information for the use and modification of the page.
+If you have any problems, contact me via email peythecrafter@gmail.com.
 
 # How to "install"
 1. Click **_Clone or download_** and **_Download ZIP_**. This will download a ZIP file with the page.
@@ -27,4 +28,15 @@ Depending of your browser, you will need to make different steps. Let's see Fire
 5. Restart browser and enjoy your new start page!
 
 # Editing city and links
+## Changing city for weather
+1. Go to http://woeid.rosselliot.co.nz/.
+2. Search yout city by name or zip code.
+3. Copy the code in the **WOEID** column.
+4. Open **_js/weather.js_** (right click and edit).
+5. Edit the two first lines:
+  `var city = "your city name, State";`<br>
+  `var id = "your woeid code";`<br>
+It's very important to use `"` and end the line with `;`.
+
+## Changing/editing links
 Coming soon.

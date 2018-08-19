@@ -1,7 +1,10 @@
+var city = "Zafra, Spain";
+var id = "779012";
+
 reallySimpleWeather.weather({
     wunderkey: '', //add your key
-    location: 'Zafra, Spain',
-    woeid: '779012',
+    location: city,
+    woeid: id,
     unit: 'c',
     success: function (weather) {
         html = '<h2>' + weather.temp + '°' + weather.units.temp + '</h2>';

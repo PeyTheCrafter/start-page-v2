@@ -33,7 +33,7 @@ Depending of your browser, you will need to make different steps. Let's see Fire
 2. Search yout city by name or zip code.
 3. Copy the code in the **WOEID** column.
 4. Open **_js/weather.js_** (right click and edit).
-5. Edit the two first lines:
+5. Edit the two first lines:<br>
   `var city = "your city name, State";`<br>
   `var id = "your woeid code";`<br>
 6. Save and close the editor.

@@ -36,6 +36,7 @@ Depending of your browser, you will need to make different steps. Let's see Fire
 5. Edit the two first lines:
   `var city = "your city name, State";`<br>
   `var id = "your woeid code";`<br>
+6. Save and close the editor.
 It's very important to use `"` and end the line with `;`.
 
 ## Changing/editing links
